@@ -6,7 +6,8 @@ import ProductList from "./productList";
 import Calculator from "./components/Shoppinglist/Calculator/Calculator";
 import Shopping from "./components/Shoppinglist/Shopping";
 import Happy from "./customhooks/Happy";
-
+import Inputform from "./customhooks/Inputform";
+import TodoApp from "./components/ToDOs/TodoApp/TodoApp";
 const App = () => {
   const name = "prashant";
   const age = 12;
@@ -31,7 +32,9 @@ const App = () => {
     // <Shopping />
     // <ProductList />
     // <Calculator />
-    <Happy />
+    // <Happy />
+    // <Inputform />
+    <TodoApp />
   );
 };
 
