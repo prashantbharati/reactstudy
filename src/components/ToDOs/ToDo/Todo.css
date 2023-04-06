@@ -7,9 +7,14 @@
   color: white;
   font-weight: bold;
   font-size: 24px;
+  list-style-type: none;
 }
 
 .todo-icon {
   float: right;
   cursor: pointer;
+}
+
+.todotext {
+  margin-left: 15px;
 }
